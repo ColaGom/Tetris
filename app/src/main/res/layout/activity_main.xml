@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tetris" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignBottom="@id/iv_logo"
+        android:layout_centerInParent="true">
+        <Button
+            android:id="@+id/btn_down"
+            android:layout_width="wrap_content"
+            android:onClick="onClick"
+            android:layout_height="wrap_content"
+            android:text="게임하기" />
+
+        <Button
+            android:id="@+id/btn_rank"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전적확인" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종료하기" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tetris</string>
+    <string name="create_bomb">폭탄생성</string>
+    <string name="preview">눈금자</string>
+</resources>

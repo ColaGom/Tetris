@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="250dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checkedButton="@+id/rb_high"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="하"/>
+
+        <RadioButton
+            android:id="@+id/rb_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중"/>
+
+        <RadioButton
+            android:id="@+id/rb_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상"/>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checkedButton="@+id/rb_normal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일반"/>
+
+        <RadioButton
+            android:id="@+id/rb_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="하드"/>
+
+    </RadioGroup>
+
+</LinearLayout>
